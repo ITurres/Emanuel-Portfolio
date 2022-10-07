@@ -1,0 +1,12 @@
+/*FOOTER*/
+
+.footer {
+  color: var(--style-lightblue);
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  padding: 1.5rem;
+}
+
+.footer__author-name {
+  font-size: 1rem;
+}

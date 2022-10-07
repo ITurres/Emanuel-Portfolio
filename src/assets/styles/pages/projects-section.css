@@ -1,0 +1,108 @@
+.projects-section__title {
+  font-size: 2.5rem;
+  padding: 0 0 4rem 0;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 2.5rem 2rem 0 2.5rem;
+  background-color: var(--style-gray);
+}
+
+.projects-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /*auto-fit: will expand columns to fill space*/
+  /*auto-fill: will fill space with columns (even if they are empty)*/
+  /*function -> min() will take the smallest between 2*/
+  grid-auto-flow: dense;
+  /*dense: will compact all it can (in case there is a bigger item,
+    so the space left taht will be an empty column, with dense will be gone.
+    in other words, it will take the item to take all space)*/
+  gap: 4rem;
+  max-width: 1200px;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+p {
+  display: block;
+}
+
+.project-tile {
+  background-color: var(--style-black);
+  text-decoration: none;
+  text-shadow: 0px 0px 5px;
+  padding-bottom: 3.8rem;
+  border-radius: 4px;
+  width: 98%;
+  box-shadow: 10px 10px 15px rgb(16, 16, 16);
+  transition: 0.5s all;
+}
+
+.project-tile:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 30px var(--style-black);
+}
+
+.project__img {
+  /* height: calc(100% - 6.8rem); */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project__title {
+  text-align: center;
+  color: var(--style-blue);
+  animation: color-change 9s infinite;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.1rem;
+}
+
+/* a.project-link:hover::before {
+    content: '< ';
+    transition-delay: 2s;
+  }
+  
+  a.project-link:hover::after {
+    content: ' />';
+    transition: 0.5s ease-in-out;
+  } */
+
+/*WITH CODE BELOW, REPLACE CODE ABOVE*/
+/*a span tah has been added with a class of 'code'*/
+.code {
+  font-size: 1.4rem;
+  color: var(--style-black);
+  transition: 0.3s ease-out;
+}
+
+.project:hover .code {
+  animation: color-change 9s infinite;
+}
+
+.btn-section {
+  margin-bottom: 3rem;
+}
+
+.show-all-btn {
+  background-color: var(--style-black);
+  opacity: 0.5;
+  color: var(--style-lightblue);
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+.show-all-btn:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  background-color: rgb(19, 19, 19);
+  border-radius: 4px;
+}

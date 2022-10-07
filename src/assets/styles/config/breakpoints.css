@@ -1,0 +1,20 @@
+/*MEDIA QUERIES*/
+
+@media (max-width: 480px) {
+  #navbar {
+    justify-content: center;
+    padding-right: 0;
+  }
+  .top-section h1 {
+    font-size: 3rem;
+  }
+  .top-section p {
+    font-size: 1.4rem;
+  }
+  .projects-grid-layout {
+    padding: 0;
+  }
+  .project__title {
+    font-size: 1.2rem;
+  }
+}

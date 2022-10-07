@@ -1,0 +1,26 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+  background-color: rgb(40, 38, 38);
+}

@@ -1,0 +1,9 @@
+:root {
+  --style-lightblue: rgb(120, 255, 244);
+  --style-pink: rgb(245, 69, 98);
+  --style-purple: rgb(150, 6, 150);
+  --style-blue: rgb(44, 44, 222);
+  --style-black: rgb(28, 28, 28);
+  --style-gray: rgb(57, 57, 57);
+  font-size: 16px;
+}

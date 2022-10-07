@@ -1,0 +1,35 @@
+@keyframes color-change {
+  0% {
+    color: var(--style-lightblue);
+  }
+  25% {
+    color: var(--style-pink);
+  }
+  50% {
+    color: var(--style-blue);
+  }
+  75% {
+    color: var(--style-purple);
+  }
+  100% {
+    color: var(--style-lightblue);
+  }
+}
+
+@keyframes color-change-2 {
+  0% {
+    color: var(--style-black);
+  }
+  25% {
+    color: var(--style-pink);
+  }
+  50% {
+    color: rgb(0, 0, 172);
+  }
+  75% {
+    color: rgb(233, 0, 233);
+  }
+  100% {
+    color: var(--style-black);
+  }
+}

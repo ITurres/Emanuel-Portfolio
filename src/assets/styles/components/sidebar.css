@@ -1,0 +1,26 @@
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  background-color: var(--style-black);
+  padding-right: 2.5rem;
+  z-index: 10; /*bring the navbar to first element(without it,
+    welcome-img will take up all the space covering
+    title-subtitle and navbar)*/
+}
+
+.navbar__ul__list {
+  text-shadow: 0 0 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+}
+
+.navbar__list {
+  animation: color-change 9s infinite;
+  text-decoration: none;
+}

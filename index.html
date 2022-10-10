@@ -19,6 +19,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="src/assets/styles/main.css" />
     <title>fcc-Portfolio</title>
   </head>
@@ -26,14 +34,23 @@
     <header>
       <nav id="navbar" class="navbar">
         <ul class="navbar__ul__list">
-          <li><a id="close-navbar" class="close-navbar__btn" href="javascript:void(0)">&#x26D2</a></li>
+          <li>
+            <span
+              id="close-navbar"
+              class="close-navbar__btn material-symbols-outlined"
+            >
+              close
+            </span>
+          </li>
           <li><a class="navbar__list" href="#projects">Projects</a></li>
           <li><a class="navbar__list" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div class="open-navbar">
-      <span id="open-navbar" class="open-navbar__btn">&#9776</span>
+      <span id="open-navbar" class="open-navbar__btn material-symbols-outlined">
+        menu
+      </span>
     </div>
     <section id="top-section" class="top-section">
       <img

@@ -19,17 +19,26 @@
 
 .navbar__ul__list {
   text-shadow: 0 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 100;
   display: flex;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
   gap: 1.2rem;
   list-style: none;
   margin-bottom: 4rem;
-  margin-right: 4rem;
+  margin-right: 3.3rem;
 }
 
 .navbar__list {
   animation: color-change 9s infinite;
   text-decoration: none;
+}
+
+.navbar__list:hover,
+.close-navbar__btn:hover {
+  animation: none;
+  color: var(--style-lightblue);
 }
 
 .open-navbar {
@@ -47,7 +56,8 @@
 }
 
 .open-navbar__btn {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 100;
   text-shadow: 0 0 1rem;
   color: var(--style-lightblue);
   margin-top: 0.5rem;
@@ -58,16 +68,28 @@
   border-radius: 4rem;
 }
 
+/* BELOW ---- GOOGLE ICONS */
+.open-navbar__btn > .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
+}
+/* ABOVE ---- GOOGLE ICONS */
+
 .close-navbar__btn {
   position: absolute;
-  top: 5px;
+  top: 10px;
   right: 2.2rem;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
+  font-weight: 100;
   margin-left: 3.1rem;
+  padding-left: 0.5rem;
   text-decoration: none;
-  color: var(--style-lightblue);
+  /* color: var(--style-lightblue); */
+  animation: color-change 9s infinite;
+  border-left: 1px solid var(--style-lightblue);
 }
 
-.close-navbar__btn:hover {
-  color: var(--style-purple);
+/* BELOW ---- GOOGLE ICONS */
+.close-navbar__btn > .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
 }
+/* ABOVE ---- GOOGLE ICONS */

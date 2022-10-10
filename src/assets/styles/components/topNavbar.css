@@ -1,4 +1,4 @@
-.top-navbar {
+.navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -17,7 +17,7 @@
   border-bottom-right-radius: 5rem;
 }
 
-.top-navbar__ul__list {
+.navbar__ul__list {
   text-shadow: 0 0 1rem;
   font-size: 1.5rem;
   display: flex;
@@ -27,12 +27,12 @@
   margin-right: 4rem;
 }
 
-.top-navbar__list {
+.navbar__list {
   animation: color-change 9s infinite;
   text-decoration: none;
 }
 
-.open-top-navbar {
+.open-navbar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,25 +40,25 @@
   width: 100%;
 }
 
-.open-top-navbar__btn,
-.close-top-navbar__btn {
+.open-navbar__btn,
+.close-navbar__btn {
   cursor: pointer;
   transition: 0.5s;
 }
 
-.open-top-navbar__btn {
+.open-navbar__btn {
   font-size: 2rem;
   text-shadow: 0 0 1rem;
   color: var(--style-lightblue);
   margin-top: 0.5rem;
 }
 
-.open-top-navbar__btn:hover {
+.open-navbar__btn:hover {
   background-color: var(--style-lightGray);
   border-radius: 4rem;
 }
 
-.close-top-navbar__btn {
+.close-navbar__btn {
   position: absolute;
   top: 5px;
   right: 2.2rem;
@@ -68,6 +68,6 @@
   color: var(--style-lightblue);
 }
 
-.close-top-navbar__btn:hover {
+.close-navbar__btn:hover {
   color: var(--style-purple);
 }

@@ -10,7 +10,6 @@
   width: 100%;
   height: 0;
   background-color: var(--style-black);
-  padding-top: 3.75rem;
   padding-right: 2.5rem;
   overflow-y: hidden;
   transition: 0.5s;
@@ -26,8 +25,6 @@
   letter-spacing: 0.3rem;
   gap: 1.2rem;
   list-style: none;
-  margin-bottom: 4rem;
-  margin-right: 3.3rem;
 }
 
 .navbar__list {
@@ -75,15 +72,11 @@
 /* ABOVE ---- GOOGLE ICONS */
 
 .close-navbar__btn {
-  position: absolute;
-  top: 10px;
-  right: 2.2rem;
   font-size: 2.1rem;
   font-weight: 100;
-  margin-left: 3.1rem;
-  padding-left: 0.5rem;
+  margin-left: 1.5rem;
+  padding-left: 1.1rem;
   text-decoration: none;
-  /* color: var(--style-lightblue); */
   animation: color-change 9s infinite;
   border-left: 1px solid var(--style-lightblue);
 }

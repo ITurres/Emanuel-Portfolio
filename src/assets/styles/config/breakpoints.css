@@ -1,9 +1,25 @@
 /*MEDIA QUERIES*/
 
 @media (max-width: 480px) {
-  #navbar {
+  .navbar {
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-right: 0;
+    border-radius: 0;
+    height: fit-content;
+    top: 0;
+  }
+  .close-navbar__btn {
+    border-left: 0;
+    border-top: 1px solid var(--style-lightblue);
+    margin-left: 0;
+    padding: 2rem 3rem;
+  }
+  .navbar__ul__list {
+    flex-direction: column;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
   }
   .top-section h1 {
     font-size: 3rem;

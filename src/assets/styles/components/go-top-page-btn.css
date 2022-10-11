@@ -1,0 +1,30 @@
+/* google icons style */
+.go-top-page__btn > .material-symbols-sharp {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.go-top-page {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 4rem;
+  right: 3.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.go-top-page__btn {
+  animation: color-change 9s infinite;
+  text-decoration: none;
+  border: 2px solid var(--style-lightblue);
+  font-weight: 100;
+  border-radius: 100%;
+  font-size: 3rem;
+}
+
+.go-top-page__text {
+  color: var(--style-lightblue);
+  font-weight: 100;
+  font-size: 1.5rem;
+}

@@ -21,6 +21,9 @@
     margin: 1rem 0.5rem;
     padding: 1rem 0.5rem;
   }
+  .go-top-page {
+    visibility: hidden;
+  }
   .top-section h1 {
     font-size: 3rem;
   }

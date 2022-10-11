@@ -27,11 +27,15 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="src/assets/styles/main.css" />
     <title>fcc-Portfolio</title>
   </head>
   <body>
-    <header>
+    <header id="header-top-page">
       <nav id="navbar" class="navbar">
         <ul class="navbar__ul__list">
           <li><a class="navbar__list" href="#projects">Projects</a></li>
@@ -211,11 +215,26 @@
     <footer class="footer">
       <h6 class="footer__author-name">©Made by Emanuel ITurres</h6>
     </footer>
+    <div id="go-top-page" class="go-top-page">
+      <a
+        href="#header-top-page"
+        id="go-top-page-btn"
+        class="go-top-page__btn material-symbols-sharp"
+      >
+        arrow_upward
+      </a>
+      <span class="go-top-page__text">G</span>
+      <span class="go-top-page__text">O</span>
+      <span class="go-top-page__text">T</span>
+      <span class="go-top-page__text">O</span>
+      <span class="go-top-page__text">P</span>
+    </div>
     <script src="src/utils/navbar-animation.js" defer></script>
     <script
       src="src/utils/profile-title-animation.js"
       type="text/javascript"
       defer
     ></script>
+    <script src="src/utils/go-top-button.js" defer></script>
   </body>
 </html>

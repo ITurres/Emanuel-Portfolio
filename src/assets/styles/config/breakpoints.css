@@ -1,5 +1,11 @@
 /*MEDIA QUERIES*/
 
+@media (max-width: 900px) {
+  .top-section {
+    height: 100%;
+  }
+}
+
 @media (max-width: 480px) {
   .navbar {
     flex-direction: column;

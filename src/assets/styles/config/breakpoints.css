@@ -21,10 +21,16 @@
     margin: 1rem 0.5rem;
     padding: 1rem 0.5rem;
   }
-  .top-section h1 {
+  .top-section {
+    height: 100vh;
+  }
+  .profile {
+    margin: 0.5rem;
+  }
+  .profile__title {
     font-size: 3rem;
   }
-  .top-section p {
+  .profile__subtitle {
     font-size: 1.4rem;
   }
   .projects-grid-layout {

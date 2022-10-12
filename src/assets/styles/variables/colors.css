@@ -4,6 +4,10 @@
   --style-purple: rgb(150, 6, 150);
   --style-blue: rgb(44, 44, 222);
   --style-black: rgb(28, 28, 28);
+  --style-transparentPink: rgb(245, 69, 98, 0.918);
+  --style-transparentPurple: rgb(150, 6, 150, 0.918);
+  --style-transparentBlue: rgb(44, 44, 222, 0.918);
+  --style-darkTransparentBlack: rgba(6, 6, 6, 0.918);
   --style-gray: rgb(57, 57, 57);
   --style-lightGray: rgb(87, 87, 87);
   font-size: 16px;

@@ -7,7 +7,16 @@
   top: -100px;
   width: 100%;
   height: 0;
-  background-color: var(--style-black);
+  background: linear-gradient(
+    90deg,
+    var(--style-darkTransparentBlack),
+    var(--style-transparentPink),
+    var(--style-transparentPurple),
+    var(--style-transparentBlue),
+    var(--style-darkTransparentBlack),
+    var(--style-darkTransparentBlack),
+    var(--style-darkTransparentBlack)
+  );
   padding-right: 2.5rem;
   overflow-y: hidden;
   transition: 0.5s;
@@ -61,8 +70,9 @@
 }
 
 .open-navbar__btn:hover {
-  background-color: var(--style-lightGray);
+  background-color: var(--style-darkTransparentBlack);
   border-radius: 4rem;
+  border: 2px solid var(--style-lightblue);
 }
 
 /* BELOW ---- GOOGLE ICONS */

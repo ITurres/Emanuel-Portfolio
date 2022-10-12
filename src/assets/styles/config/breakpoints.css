@@ -6,11 +6,14 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .navbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    background: 0; /*turns off linear gradient*/
+    background-color: var(--style-darkTransparentBlack);
     padding-right: 0;
     border-radius: 0;
     height: fit-content;
@@ -27,6 +30,9 @@
     margin: 1rem 0.5rem;
     padding: 1rem 0.5rem;
   }
+}
+
+@media (max-width: 480px) {
   .top-section {
     height: 100vh;
   }

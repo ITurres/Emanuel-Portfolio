@@ -33,3 +33,30 @@
     color: var(--style-black);
   }
 }
+
+@keyframes border-color-change {
+  0% {
+    border: 2px dotted var(--style-lightblue);
+  }
+  25% {
+    border: 2px dotted var(--style-pink);
+  }
+  50% {
+    border: 2px dotted var(--style-blue);
+  }
+  75% {
+    border: 2px dotted var(--style-purple);
+  }
+  100% {
+    border: 2px dotted var(--style-lightblue);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

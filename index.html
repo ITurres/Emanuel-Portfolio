@@ -55,12 +55,25 @@
       </span>
     </div>
     <section id="top-section" class="top-section">
-      <img
-        class="top-section__img"
-        src="src/assets/media/background-img/welcome-section-img.jpeg"
-      />
-      <h1>Emanuel A. Iturres</h1>
-      <p>...</p>
+      <video
+        muted
+        type="video/mp4"
+        autoplay
+        playsinline
+        loop
+        preload="auto"
+        class="top-section__video"
+        src="src/assets/media/background-video/portfolio-header_video.mp4"
+        width="100%"
+      ></video>
+      <div class="profile">
+        <img
+          class="profile__img"
+          src="src/assets/media/profile-pic/profile-pic-emanuel.png"
+          alt=""
+        />
+        <h1 id="profile-title" class="profile__title"></h1>
+        <p id="profile-subtitle" class="profile__subtitle">Future Web Dev.</p>
     </section>
     <!-- HERE STARTS PROJECTS SECTION -->
     <section id="projects" class="projects-section">
@@ -217,6 +230,11 @@
       <span class="go-top-page__text">P</span>
     </div>
     <script src="src/utils/navbar-animation.js" defer></script>
+    <script
+      src="src/utils/profile-title-animation.js"
+      type="text/javascript"
+      defer
+    ></script>
     <script src="src/utils/go-top-button.js" defer></script>
   </body>
 </html>

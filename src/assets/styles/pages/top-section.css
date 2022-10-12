@@ -29,26 +29,36 @@
 
 .profile__img {
   border-radius: 100%;
-  border: 2px solid var(--style-lightblue);
+  border: 2px dotted var(--style-lightblue);
+  animation: border-color-change 5s infinite;
   object-fit: cover;
   max-width: 400px;
   width: 70%;
 }
 
 .profile__title {
-  font-size: 3.8rem;
+  font-size: 3rem;
   text-align: center;
   z-index: 10;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
   letter-spacing: 0.2rem;
-  animation: color-change-2 9s infinite;
+  color: aliceblue;
   pointer-events: none;
   margin: 2rem 0;
+  width: 100vw;
 }
 
 .profile__subtitle {
+  display: none;
   font-size: 1.9rem;
+  font-weight: bold;
+  text-shadow: 0 0 1rem;
   z-index: 10;
   color: aliceblue;
+  transition: all 1s ease-in;
+}
+
+.show__subtitle {
+  display: block;
+  animation: scale 1s ease-in, color-change 6s infinite;
 }

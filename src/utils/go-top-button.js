@@ -1,6 +1,9 @@
+import { close_NavBar } from "./navbar-animation.js";
+
 const $goTop_btn = document.querySelector("#go-top-page");
 
 window.addEventListener("scroll", () => showBtn());
+$goTop_btn.addEventListener("click", () => close_NavBar());
 
 const showBtn = () => {
   if (

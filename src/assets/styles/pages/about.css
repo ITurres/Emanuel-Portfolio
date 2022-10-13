@@ -1,1 +1,96 @@
+.about-author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--style-purple);
+  background: url(/src/assets/media/background-img/starry-sky-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  height: 100%;
+}
 
+.about-author > .container {
+  max-width: 1000px;
+  margin: 0 2rem;
+}
+
+.about-author__title {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.about-author__subtitle {
+  padding: 0 2rem 2rem;
+}
+
+.emoji {
+  text-shadow: 0 0 0;
+}
+
+.emoji.hand {
+  font-size: 2rem;
+}
+
+.emoji.earth,
+.emoji.smile {
+  font-size: 1.3rem;
+}
+
+.about-author__par--holder,
+.section-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 2rem 0 8rem;
+  gap: 1rem;
+}
+
+/* BELOW---TOGGLE SECTION */
+.section-toggle {
+  display: none;
+  margin-top: 0;
+  gap: 0;
+  margin-bottom: 0.5rem;
+}
+
+.section-toggle__text {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.section-toggle__btn {
+  cursor: pointer;
+  text-shadow: 0 0 1rem;
+  color: var(--style-lightblue);
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+/* ABOVE---TOGGLE SECTION */
+
+.about-author__par {
+  text-shadow: 0 0 1rem var(--style-purple);
+  text-align: justify;
+  padding: 0 2rem;
+  width: 80%;
+}
+
+.about-author__par:last-of-type {
+  margin-top: 2rem;
+  margin-right: 3rem;
+  text-align: end;
+}
+
+.about-author__par--separator {
+  font-size: 4rem;
+  color: var(--style-lightblue);
+}
+
+/* google icons */
+.material-symbols-sharp {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
+}

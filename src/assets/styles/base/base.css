@@ -24,3 +24,8 @@ body {
   line-height: 1.4;
   background-color: rgb(40, 38, 38);
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

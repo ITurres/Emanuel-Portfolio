@@ -52,7 +52,7 @@
   display: none;
   font-size: 1.9rem;
   font-weight: bold;
-  text-shadow: 0 0 1rem;
+  text-shadow: 0 0 0.5rem;
   z-index: 10;
   color: aliceblue;
   transition: all 1s ease-in;

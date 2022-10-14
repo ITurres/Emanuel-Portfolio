@@ -16,6 +16,15 @@
   .about-author__par-holder--visible {
     display: flex;
   }
+  .go-top-page {
+    flex-direction: row;
+    justify-content: flex-start;
+    bottom: 2rem;
+    left: 2rem;
+  }
+  .go-top-page__text {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {

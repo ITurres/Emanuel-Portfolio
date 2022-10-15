@@ -21,7 +21,7 @@
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 1.5rem;
-  padding: 4rem 0 3rem 1.4rem;
+  padding: 6rem 0 3rem 1.4rem;
 }
 
 .projects-grid-layout {
@@ -47,6 +47,21 @@ p {
   display: block;
 }
 
+/* BELOW---HIDE TILES ON SCROLL */
+.project--hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.project--show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+/* BELOW---HIDE TILES ON SCROLL */
+
 .project-tile {
   background-color: aliceblue;
   text-decoration: none;
@@ -54,7 +69,8 @@ p {
   padding-bottom: 3.8rem;
   border-radius: 4px;
   width: 98%;
-  transition: 0.5s all;
+  transition: all 0.5s;
+  transition-delay: 0;
 }
 
 .project-tile:hover {

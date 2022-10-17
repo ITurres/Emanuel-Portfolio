@@ -11,6 +11,7 @@
   position: fixed;
   bottom: 4rem;
   right: 3.5rem;
+  text-shadow: 0.2rem 0.1rem 0.2rem var(--style-black);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -21,11 +22,12 @@
   font-weight: 100;
   border-radius: 100%;
   font-size: 3rem;
-  transition: transform 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .go-top-page__btn:hover {
   transform: scale(1.1);
+  text-shadow: 0.3rem 0.3rem 0.2rem var(--style-black);
 }
 
 .go-top-page__text {

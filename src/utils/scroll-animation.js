@@ -13,8 +13,7 @@ $hiddenProjects.forEach((element) => observer.observe(element));
 
 const delayTransitionOnScroll = (elementX) => {
   let delay = 0;
-  for (let i = 0; i < elementX.length; i++) {
-    elementX[i].style.transitionDelay = `${delay}ms`;
-    delay += 200;
-  }
+  elementX.forEach((el) => {
+    el.style.transitionDelay = `${(delay += 200)}ms`;
+  });
 };

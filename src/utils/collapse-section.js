@@ -1,6 +1,6 @@
 const $sectionToggle_text = document.querySelector("#section-toggle-text");
 const $sectionToggle_btn = document.querySelector("#toggle-btn");
-const $x = document.querySelector("#about-author-par");
+const $paragraph_holder = document.querySelector("#about-author-par--holder");
 
 $sectionToggle_btn.addEventListener("click", () => {
   toggleSection();
@@ -8,7 +8,7 @@ $sectionToggle_btn.addEventListener("click", () => {
 });
 
 const toggleSection = () => {
-  $x.classList.toggle("about-author__par-holder--visible");
+  $paragraph_holder.classList.toggle("about-author__par-holder--visible");
 };
 
 const changeInnerText = () => {

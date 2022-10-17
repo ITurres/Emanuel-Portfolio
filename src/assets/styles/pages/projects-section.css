@@ -70,10 +70,9 @@ p {
   border-radius: 4px;
   width: 98%;
   transition: all 0.5s;
-  transition-delay: 0;
 }
 
-.project-tile:hover {
+/* .project-tile:hover {
   transform: scale(1.1);
   border-inline-end: 0.2rem solid;
   border-block-end: 0.2rem solid;
@@ -84,7 +83,7 @@ p {
   );
   border-image-slice: 1;
   padding-top: 0.5rem;
-}
+} */
 
 .project__img {
   /* height: calc(100% - 6.8rem); */

@@ -1,7 +1,7 @@
 .projects-section {
   text-align: center;
   background-color: var(--style-gray);
-  background: url(/src/assets/media/background-img/projects-section-bg.jpg);
+  background: url(../../../assets/media/background-img/projects-section-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -10,6 +10,7 @@ $close_btn.addEventListener("click", () => close_NavBar());
 
 const open_NavBar = () => {
   $open_btn.style.opacity = "0";
+  $navBarElement.style.display = "flex";
   if (window.innerWidth > 600) {
     //600 is the breakpoint on @media//
     $navBarElement.style.height = "3rem";

@@ -8,7 +8,7 @@ let underscore = "_";
 
 window.setTimeout(() => {
   showTitleOnDom();
-}, 500);
+}, 1000);
 
 function showTitleOnDom() {
   newProfileTitle.forEach((elem, index) => {

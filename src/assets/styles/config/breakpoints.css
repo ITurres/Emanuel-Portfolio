@@ -25,6 +25,21 @@
   .go-top-page__text {
     display: none;
   }
+  .contact-section,
+  .contact-form__title--holder {
+    flex-direction: column;
+    gap: 0;
+  }
+  .short-about__par {
+    margin-top: 4rem;
+  }
+  .contact-section__video {
+    height: 200%;
+  }
+  .contact-form {
+    width: 80%;
+    margin-bottom: 6rem;
+  }
 }
 
 @media (max-width: 600px) {

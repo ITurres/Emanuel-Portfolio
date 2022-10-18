@@ -239,7 +239,7 @@
             <span class="code"><</span>
             JS Doc-Page
             <span class="code">/></span>
-          </p>
+          </p>  
         </a>
       </div>
       <div class="btn-section">
@@ -250,6 +250,50 @@
           >Show all projects</a
         >
       </div>
+    </section>
+    <section id="contact-section" class="contact-section container">
+      <video
+        muted
+        type="video/mp4"
+        autoplay
+        playsinline
+        loop
+        preload="auto"
+        class="contact-section__video"
+        src="src/assets/media/background-video/portfolio-stripe_neon_lights.mp4"
+        width="100%"
+        poster="src/assets/media/background-img/contact-section-video-poster.jpg"
+      ></video>
+      <div class="contact-section__short-about">
+        <p class="short-about__par">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+          nobis aliquid sapiente accusamus perspiciatis atque delectus voluptate suscipit cum,
+          laudantium repudiandae eos harum possimus velit officiis temporibus quam maiores magni
+          illo blanditiis eaque veniam deleniti culpa et. Ipsam, adipisci laudantium! Voluptate
+          tenetur doloribus aperiam quo itaque iure expedita, dolor dolorem earum, sequi error
+        </p>
+      </div>
+      <form action="" class="contact-form">
+        <div id="call-to-action" class="call-to-action">
+          <h4 class="call-to-action__title">Click below to see Contact Form</h4>
+          <span class="emoji hand">👇&nbsp;</span>
+          <button id="call-to-action-btn" class="call-to-action__btn">Contact Form</button>
+        </div>
+        <div class="fieldset--hidden">
+          <fieldset class="contact-form__fieldset">
+            <div class="contact-form__title--holder">
+              <span class="emoji happy">😁&nbsp;</span><h3 class="contact-form__title">Hello!, here you can send me a custom message...</h3>
+           </div>
+             <label for="name"><input id="name" class="form-input" type="text" placeholder="Enter your name here..." data-type="name"></label>
+             <label for="email"><input id="email" class="form-input" type="email" placeholder="your email..." data-type="email"></label>
+             <label for="about"><input id="about" class="form-input" type="text" placeholder="About..." data-type="about"></label>
+              <textarea id="message" class="form-textarea form-input" type="text" placeholder="your message..." cols="20" rows="5" data-type="message"></textarea>
+          </fieldset>
+          <div class="contact-form__send-btn--holder">
+            <input id="send-btn" class="send-btn" type="submit" value="Send message">
+          </div>
+        </div>
+      </form> 
     </section>
     <!-- HERE FINISHES PROJECTS SECTION -->
     <section id="social-media" class="social-media">

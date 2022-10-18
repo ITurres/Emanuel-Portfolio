@@ -25,6 +25,7 @@
   height: fit-content;
   width: fit-content;
   margin: 5rem;
+  overflow-x: hidden;
 }
 
 .profile__img {

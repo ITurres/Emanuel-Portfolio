@@ -291,7 +291,8 @@
               <i id="checked-icon" class="input__checked-icon material-symbols-rounded">
                 done_all
                 </i>
-            </div>
+              </div>
+              <p>Name must be only letters and contain 3 - 30 characters</p>
             <div class="input-icon--holder">
               <label for="email"></label>
               <input id="email" class="form-input" type="email" placeholder="your email..." required data-type="email">
@@ -299,6 +300,7 @@
                 done_all
                 </i>
             </div>
+            <p>Email must be a valid address, e.g me@mydomain.com</p>
             <div class="input-icon--holder">
               <label for="subject"></label>
               <input id="subject" class="form-input" type="text" placeholder="Subject..." required data-type="subject">
@@ -306,6 +308,7 @@
                 done_all
                 </i>
             </div>
+            <p>Subject can be alphanumeric and be at least two characters</p>
             <div class="input-icon--holder">
               <label for="message"></label>
               <textarea id="message" class="form-textarea form-input" type="text" placeholder="your message..." cols="20" rows="5" required data-type="message"></textarea>
@@ -313,6 +316,7 @@
                 done_all
                 </i>
             </div>
+            <p>Message can be alphanumeric and contain more than 20 characters</p>
           </fieldset>
           <div class="contact-form__send-btn--holder">
             <input id="send-btn" class="send-btn" type="submit" value="Send message">

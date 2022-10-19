@@ -3,10 +3,26 @@
 .footer {
   color: var(--style-lightblue);
   text-align: center;
-  background-color: rgb(15, 15, 15);
-  padding: 1.5rem;
+  /* background-color: var(--style-darkTransparentBlack); */
+  background: linear-gradient(
+    90deg,
+    var(--style-darkTransparentBlack),
+    var(--style-darkTransparentBlack),
+    var(--style-transparentPink),
+    var(--style-transparentPurple),
+    var(--style-transparentBlue),
+    var(--style-lightblue),
+    var(--style-transparentBlue),
+    var(--style-transparentPurple),
+    var(--style-transparentPink),
+    var(--style-darkTransparentBlack),
+    var(--style-darkTransparentBlack)
+  );
+  padding: 0.2rem;
 }
 
 .footer__author-name {
+  background-color: var(--style-darkTransparentBlack);
   font-size: 1rem;
+  padding: 1rem 0;
 }

@@ -13,7 +13,7 @@ const open_NavBar = () => {
   $navBarElement.style.display = "flex";
   if (window.innerWidth > 600) {
     //600 is the breakpoint on @media//
-    $navBarElement.style.height = "3rem";
+    $navBarElement.style.height = "2.5rem";
   } else {
     $navBarElement.style.height = "fit-content";
   }

@@ -4,7 +4,7 @@ const $checkedIcons = document.querySelectorAll(".check-icon");
 const patterns = {
   name: /^[a-zA-Z]{3,30}$/,
   email: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/,
-  subject: /^[\w\s]{1,}$/,
+  subject: /^[\w\s]{2,}$/,
   message: /^[\w\s]{20,}$/,
 };
 

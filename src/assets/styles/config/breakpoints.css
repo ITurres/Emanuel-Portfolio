@@ -54,6 +54,7 @@
     padding-right: 0;
     border-radius: 0;
     height: fit-content;
+    width: 100vw;
     top: 0;
   }
   .close-navbar__btn {

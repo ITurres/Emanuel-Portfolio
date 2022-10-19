@@ -91,4 +91,20 @@
     margin-right: 0;
     text-align: center;
   }
+  .contact-section__video {
+    height: 300%;
+  }
+  .contact-form {
+    padding: 0;
+  }
+  .form-input {
+    font-size: 0.7rem;
+  }
+  .short-about__par {
+    font-size: 0.8rem;
+    padding: 2.5rem;
+  }
+  .call-to-action__title {
+    font-size: 1rem;
+  }
 }

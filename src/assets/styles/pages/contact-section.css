@@ -7,7 +7,7 @@
 }
 
 .call-to-action__title {
-  text-align: start;
+  text-align: center;
   font-size: 1.4rem;
   color: aliceblue;
   padding: 1rem 1rem 0 1rem;
@@ -126,7 +126,7 @@ textarea:-webkit-autofill:focus {
   display: block;
   padding: 0.5rem 0.5rem;
   width: 96%;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
   font-size: 1rem;
   font-weight: bold;
   border: none;

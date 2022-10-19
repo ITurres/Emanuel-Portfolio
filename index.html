@@ -27,6 +27,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="src/assets/styles/main.css" />
     <title>fcc-Portfolio</title>
   </head>
@@ -277,17 +278,41 @@
         <div id="call-to-action" class="call-to-action">
           <h4 class="call-to-action__title">Click below to see Contact Form</h4>
           <span class="emoji hand">👇&nbsp;</span>
-          <button id="call-to-action-btn" class="call-to-action__btn">Contact Form</button>
+          <button id="call-to-action-btn" class="call-to-action__btn" type="button">Contact Form</button>
         </div>
         <div class="fieldset--hidden">
           <fieldset class="contact-form__fieldset">
             <div class="contact-form__title--holder">
               <span class="emoji happy">😁&nbsp;</span><h3 class="contact-form__title">Hello!, here you can send me a custom message...</h3>
            </div>
-             <label for="name"><input id="name" class="form-input" type="text" placeholder="Enter your name here..." data-type="name"></label>
-             <label for="email"><input id="email" class="form-input" type="email" placeholder="your email..." data-type="email"></label>
-             <label for="about"><input id="about" class="form-input" type="text" placeholder="About..." data-type="about"></label>
-              <textarea id="message" class="form-textarea form-input" type="text" placeholder="your message..." cols="20" rows="5" data-type="message"></textarea>
+            <div class="input-icon--holder">
+              <label for="name"></label>
+              <input id="name" class="form-input" type="text" placeholder="Enter your name here..." required data-type="name">
+              <i id="checked-icon" class="input__checked-icon material-symbols-rounded">
+                done_all
+                </i>
+            </div>
+            <div class="input-icon--holder">
+              <label for="email"></label>
+              <input id="email" class="form-input" type="email" placeholder="your email..." required data-type="email">
+              <i id="checked-icon" class="input__checked-icon material-symbols-rounded">
+                done_all
+                </i>
+            </div>
+            <div class="input-icon--holder">
+              <label for="subject"></label>
+              <input id="subject" class="form-input" type="text" placeholder="Subject..." required data-type="subject">
+              <i id="checked-icon" class="input__checked-icon material-symbols-rounded">
+                done_all
+                </i>
+            </div>
+            <div class="input-icon--holder">
+              <label for="message"></label>
+              <textarea id="message" class="form-textarea form-input" type="text" placeholder="your message..." cols="20" rows="5" required data-type="message"></textarea>
+              <i id="checked-icon" class="input__checked-icon material-symbols-rounded">
+                done_all
+                </i>
+            </div>
           </fieldset>
           <div class="contact-form__send-btn--holder">
             <input id="send-btn" class="send-btn" type="submit" value="Send message">
@@ -351,5 +376,7 @@
     <script type="module" src="src/utils/go-top-button.js" type="text/javascript" defer></script>
     <script src="src/utils/collapse-section.js" type="text/javascript" defer></script>
     <script src="src/utils/scroll-animation.js" type="text/javascript" defer></script>
+    <script src="src/utils/show-contact-form.js" type="text/javascript" defer></script>
+    <script src="src/utils/contact-form-validation.js" type="text/javascript" defer></script>
   </body>
 </html>

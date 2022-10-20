@@ -9,6 +9,7 @@
 .call-to-action__title {
   text-align: center;
   font-size: 1.4rem;
+  font-weight: 600;
   color: aliceblue;
   padding: 1rem 1rem 0 1rem;
 }

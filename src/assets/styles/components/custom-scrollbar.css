@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--style-darkTransparentBlack);
+  background: var(--style-transparentDarkBlue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--style-lightblue);
+  border-radius: 10px;
+}
+
+::-webkit-resizer {
+  display: none;
+}

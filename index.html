@@ -49,13 +49,16 @@
       <source src="src/assets/media/background-video/portfolio-header-video.mp4" type="video/mp4">
       </video>
       <div class="profile">
-        <img
-          class="profile__img"
-          src="src/assets/media/profile-pic/profile-pic-emanuel.png"
-          alt="emanuel iturres profile picture"
-          height="100%"
-          width="100%"
-        />
+        <picture class="profile__sources--holder">
+          <source src="src/assets/media/profile-pic/profile-pic-emanuel.webp" type="image/webp">
+          <img
+            class="profile__img"
+            src="src/assets/media/profile-pic/profile-pic-emanuel.png"
+            alt="emanuel iturres profile picture"
+            height="100%"
+            width="100%"
+          />
+        </picture>
         <h1 id="profile-title" class="profile__title"></h1>
         <p id="profile-subtitle" class="profile__subtitle">Future Web Dev.</p>
     </section>

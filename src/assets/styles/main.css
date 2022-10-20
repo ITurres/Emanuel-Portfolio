@@ -13,6 +13,7 @@
 /* components */
 @import "components/topNavbar.css";
 @import "components/go-top-page-btn.css";
+@import "components/custom-scrollbar.css";
 
 /* pages */
 

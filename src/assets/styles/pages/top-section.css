@@ -28,6 +28,13 @@
   overflow-x: hidden;
 }
 
+.profile__sources--holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .profile__img {
   border-radius: 100%;
   border: 2px dotted var(--style-lightblue);

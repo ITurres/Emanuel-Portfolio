@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    href: "https://iturres.github.io/The-Dungeons-Game/",
+    srcset: "src/assets/media/projects-img-webp/the-dungeons-game.webp",
+    src: "src/assets/media/projects-img/the-dungeons-game.jpg",
+    alt: "hang man game",
+    title: "The Dungeons Game",
+  },
+  {
+    href: "https://iturres.github.io/Project_Encryptor/",
+    srcset: "src/assets/media/projects-img-webp/project-encryptor.webp",
+    src: "src/assets/media/projects-img/project-encryptor.jpg",
+    alt: "text encryptor",
+    title: "Text Encryptor",
+  },
+  {
+    href: "https://iturres.github.io/O.P-Project/",
+    srcset: "src/assets/media/projects-img-webp/op-project.webp",
+    src: "src/assets/media/projects-img/op-project.jpg",
+    alt: "Motorbike store website",
+    title: " O.P Project",
+  },
+  {
+    href: "https://iturres.github.io/The-Time-Meister/",
+    srcset: "src/assets/media/projects-img-webp/thetimemeister.webp",
+    src: "src/assets/media/projects-img/thetimemeister.jpg",
+    alt: "watches store website",
+    title: "The Time Meister",
+  },
+  {
+    href: "https://iturres.github.io/Survey_The-Time-Meister/",
+    srcset: "src/assets/media/projects-img-webp/survey-thetimemeister.webp",
+    src: "src/assets/media/projects-img/survey-thetimemeister.jpg",
+    alt: "Watches survey",
+    title: "Time Meister's Survey",
+  },
+  {
+    href: "https://iturres.github.io/Legendary-Ms/",
+    srcset: "src/assets/media/projects-img-webp/legendary-ms.webp",
+    src: "src/assets/media/projects-img/legendary-ms.jpg",
+    alt: "car delivery website",
+    title: "Legendary MotorSport",
+  },
+  {
+    href: "https://iturres.github.io/Rolex_Tribute-Page/",
+    srcset: "src/assets/media/projects-img-webp/rolextributepage.webp",
+    src: "src/assets/media/projects-img/rolextributepage.jpg",
+    alt: "rolex tribute page",
+    title: "Rolex Tribute Page",
+  },
+  {
+    href: "https://iturres.github.io/JS-Tecnical_Documentation_Page/",
+    srcset: "src/assets/media/projects-img-webp/js-docpage.webp",
+    src: "src/assets/media/projects-img/js-docpage.jpg",
+    alt: "javaScrypt doc page",
+    title: "JS Doc-Page",
+  },
+];
